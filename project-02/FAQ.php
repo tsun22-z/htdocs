@@ -11,7 +11,7 @@
 
 
 
-<h1 style="text-align:center"> Welcome to my Project-02 Home page </h1>
+<h1 style="text-align:center"> Welcome to my Project-02 FAQ page </h1>
 
 <?php 
     include("./includes/nav.php");
