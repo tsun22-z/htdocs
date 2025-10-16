@@ -7,6 +7,6 @@
             <li><a href="dataTypes.php">FAQ</a></li>
     </ul>
 </nav>
-<?php echo date('Y-M-D') "<br>";
+<?php echo date('Y-M-D')."<br>";
 echo date('H:i:s') ;
 ?>
