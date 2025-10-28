@@ -50,7 +50,97 @@ header .main-nav li a {
     height: 700px;
     background-image:
     linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
-    url("../img/hero-image.jpg");
+    url("../img/jQuery_event.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroAnimate {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_animate.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroAppend {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_append.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroEvents {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_event.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroGetSet {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_getset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroHide {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_hide.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroShow {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_show.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroScroll {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_scroll.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroSlide {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_slide.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroStop {
+    width: 100%;
+    height: 700px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+    url("../img/jQuery_stop.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

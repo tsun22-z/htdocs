@@ -2,13 +2,13 @@
 include("./includes/head.php");
 include("./includes/meta.php");
 include("./includes/topNav.php");
-include("./includes/hero.php");
-include("./includes/blog.php");
+include("./includes/heroSlide.php");
+
 //include("./includes/partners.php");
 ?>
 
 <!-- Html and JQuery go here -->
-  <h1 style="text-allign:center"> Stop </h1>
+  <h1 style="text-align:center"> Slide </h1>
 <script>
 
 </script>

@@ -10,7 +10,7 @@ partners.php
 
 Events.php
 Hide.php
-SLide.php
+Slide.php
 Animate.php
 Stop.php
 Scroll.php
