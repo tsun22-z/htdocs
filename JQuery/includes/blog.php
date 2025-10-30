@@ -1,13 +1,15 @@
 <section id="blog">
         <div class="container">
-        <h2><b>Blog</b> Everything about RACING CLUB</h2>
+        <h2><b>jQuery</b> Project Website</h2>
             <div class="blog-posts">
-                <!--Blog post #1-->
+                <!--Blog post EVENTS PAGE-->
                 <div class="blog-post">
-                <img src="img/blog-img/blog1.jpg" srcset="img/blog-img/blog1.jpg
-                1x, img/blog-img/blog1@2x.jpg 2x">
-                <p class="blog-post-date">09th January 2016</p>
-                <h3>Racing Club Advan Neova Challenge Round 3 Update</h3>
+                <img src="img/jQuery_event.png" >
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Events page</h3>
                 <p class="blog-post-desc">FINAL ROUND: Labour Day Trackday
                 Wakefield Park. Last chance to compete in the Circuit Club Advan Neova
                 Challenge 2016!
@@ -15,12 +17,16 @@
                 3, however some suspected engi… <a href="#">Read More</a></p>
 
             </div>
+
                 <div class="blog-post">
-                    <!--Blog post #2-->
-                <img src="img/blog-img/blog2.jpg" srcset="img/blog-img/blog2.jpg
-                1x, img/blog-img/blog2@2x.jpg 2x">
-                <p class="blog-post-date">09th January 2016</p>
-                <h3>Hidden Behind the Scenes</h3>
+                    <!--Blog post HIDE-->
+                <a href="heroHide.php"> </a>
+                <img src="img/jQuery_hide.png">
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Hide</h3>
                 <p class="blog-post-desc">Originally posted by Narada Kudinar,
                 23.08.11.
                 At our Trackdays, we get a variety - owners with their girlfriends, owners
@@ -31,11 +37,13 @@
             
             
             <div class="blog-post">
-                <!--Blog post #3-->
-                <img src="img/blog-img/blog3.jpg" srcset="img/blog-img/blog3.jpg
-                1x, img/blog-img/blog3@2x.jpg 2x">
-                <p class="blog-post-date">04th July 2015</p>
-                <h3>Introducing Advan Trackdays!</h3>
+                <!--Blog post SLIDE-->
+                <img src="img/jQuery_slide.png" >
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Slide</h3>
                 <p class="blog-post-desc">For the first time, Yokohama Advan Tyres
                 are hosting their very own Trackdays, hosted by your's truly! The aim? To
                 thank their loyal customers by providing a bargain event as well as
@@ -43,13 +51,29 @@
                 href="#">Read More</a></p>
             </div>
            
+              <div class="blog-post">
+                <!--Blog post ANIMATE-->
+                <img src="img/jQuery_animate.png" >
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Animate</h3>
+                <p class="blog-post-desc">For the first time, Yokohama Advan Tyres
+                are hosting their very own Trackdays, hosted by your's truly! The aim? To
+                thank their loyal customers by providing a bargain event as well as
+                introduce new Advan tyres to those who don't use them yet...<a
+                href="#">Read More</a></p>
+            </div>
            
             <div class="blog-post">
-                <!--Blog post #4-->
-                <img src="img/blog-img/blog4.jpg" srcset="img/blog-img/blog4.jpg
-                1x, img/blog-img/blog4@2x.jpg 2x">
-                <p class="blog-post-date">09th Jun 2015</p>
-                <h3>ANZAC Day Spots Running Out!</h3>
+                <!--Blog post APPEND-->
+                <img src="img/jQuery_append.png" >
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Append</h3>
                 <p class="blog-post-desc">FINAL ROUND: Labour Day Trackday
                 Wakefield Park. Last chance to compete in the Circuit Club Advan Neova
                 Challenge 2016!
@@ -59,11 +83,13 @@
            
            
             <div class="blog-post">
-                <!--Blog post #5-->
-                <img src="img/blog-img/blog5.jpg" srcset="img/blog-img/blog5.jpg
-                1x, img/blog-img/blog5@2x.jpg 2x">
-                <p class="blog-post-date">15th Mar 2015</p>
-                <h3>10 Year Anniversary Details Now Available!</h3>
+                <!--Blog post Scroll-->
+                <img src="img/jQuery_scroll.png" >
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Scroll</h3>
                 <p class="blog-post-desc">Originally posted by Narada Kudinar,
                 23.08.11.
                 At our Trackdays, we get a variety - owners with their girlfriends, owners
@@ -74,17 +100,62 @@
            
            
             <div class="blog-post">
-                <!--Blog post #6-->
-                <img src="img/blog-img/blog6.jpg" srcset="img/blog-img/blog6.jpg
-                1x, img/blog-img/blog6@2x.jpg 2x">
-                <p class="blog-post-date">16th Jan 2015</p>
-                <h3>Prepare for EPICNESS</h3>
+                <!--Blog post SHOW-->
+                <img src="img/jQuery_show.png" >
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Show</h3>
                 <p class="blog-post-desc">For the first time, Yokohama Advan Tyres
                 are hosting their very own Trackdays, hosted by your's truly! The aim? To
                 thank their loyal customers by providing a bargain event as well as
                 introduce new Advan tyres to those who don't use them yet... <a
                 href="#">Read More</a></p>
             </div>
+             <div class="blog-post">
+                <!--Blog post GETSET-->
+                <img src="img/jQuery_getset.png" >
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Get Set</h3>
+                <p class="blog-post-desc">For the first time, Yokohama Advan Tyres
+                are hosting their very own Trackdays, hosted by your's truly! The aim? To
+                thank their loyal customers by providing a bargain event as well as
+                introduce new Advan tyres to those who don't use them yet... <a
+                href="#">Read More</a></p>
+            </div>
+             <div class="blog-post">
+                <!--Blog post STOP-->
+                <img src="img/jQuery_stop.png" >
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>Stop</h3>
+                <p class="blog-post-desc">For the first time, Yokohama Advan Tyres
+                are hosting their very own Trackdays, hosted by your's truly! The aim? To
+                thank their loyal customers by providing a bargain event as well as
+                introduce new Advan tyres to those who don't use them yet... <a
+                href="#">Read More</a></p>
+            </div>
+              <div class="blog-post">
+                <!--Blog post PHP Date and Time-->
+                <a href="https://www.w3schools.com/php/php_date.asp" target="_new"> <img src="img/php_logo.png"</a>
+                <p class="blog-post-date"><?php
+                date_default_timezone_set("America/New_York");    
+                echo date("Y-m-d h:i:sa");?>
+                </p>
+                <h3>PHP Date and Time</h3>
+                <p class="blog-post-desc">For the first time, Yokohama Advan Tyres
+                are hosting their very own Trackdays, hosted by your's truly! The aim? To
+                thank their loyal customers by providing a bargain event as well as
+                introduce new Advan tyres to those who don't use them yet... <a
+                href="#">Read More</a></p>
+            </div>
+            
             </div>
            
            

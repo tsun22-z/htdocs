@@ -1,4 +1,4 @@
-<section id="heroEvent">
+<section id="heroEvents">
         <div class="container">
             <div class="hero-text">
                 <p class="hero-date">Hero Events </p>

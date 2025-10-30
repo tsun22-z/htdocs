@@ -284,7 +284,15 @@ header .main-nav li a {
 }
 
 /* END OF ABOUT US*/
+/* jQuery Sections*/
 
+#Events,#Hide,#Slide,#GetSet,#Append,#Animate,#Show,#Scroll,#Stop {
+  
+    background-position: center;
+    width: 50%;
+    margin: 0 auto;
+}
+/* Emd of jQuery Sections*/
 /*START OF PARTNERS SECTION*/
 
 #partners {

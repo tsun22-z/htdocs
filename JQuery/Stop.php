@@ -9,6 +9,10 @@ include("./includes/heroStop.php");
 
 <!-- Html and JQuery go here -->
   <h1 style="text-align:center"> Stop </h1>
+  <section id="Stop">
+
+  </section>
+ 
 <script>
 
 </script>
