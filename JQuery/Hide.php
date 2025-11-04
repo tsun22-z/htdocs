@@ -6,14 +6,14 @@ include("./includes/heroHide.php");
 
 //include("./includes/partners.php");
 ?>
-
+<body>
 <!-- Html and JQuery go here -->
   <h1 style="text-align:center"> Hide </h1>
-  <section id="hide">
+  <section id="Hide">
 
 
 <!-- CSS Section -->
-     <style>
+<style>
 
 #side-nav ul li a,#side-nav ul li {
 text-decoration: none;
@@ -84,3 +84,7 @@ $(document).ready(function(){
 
 <?php
 include('./includes/bottomNav.php');
+?>
+
+</body>
+</html> 

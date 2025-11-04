@@ -6,9 +6,12 @@ include("./includes/heroSlide.php");
 
 //include("./includes/partners.php");
 ?>
-
-<!-- Html and JQuery go here -->
+<body>
+ <!-- Html and JQuery go here --> 
   <h1 style="text-align:center"> Slide </h1>
+  <section id="Slide">
+
+
   <!-- CSS SECTION-->
 <style>
 
@@ -53,7 +56,7 @@ border-radius: 50%;
 background-color: red;
 }
 .info-title{
-padding: 5px 5px 0px 5px;
+padding: 5px 5px 0px 0px;
 }
 .info-content{
 background-color: #F1C40F;
@@ -63,8 +66,10 @@ padding: 5px;
 
   <!-- END OF CSS SECTION-->
 
+ <p id="menu-toggle"> <img src="img/Hamburger_icon.png" width=50px></p>
+  
   <nav id="side-nav">
-  <p id="menu-toggle"> <img src="img/Hamburger_icon.png" width=50px></p>
+    
  <ul>
       <li> <a href="#">Home</a></li>
       <li> <a href="#">My channel</a></li>
@@ -82,10 +87,10 @@ padding: 5px;
 
 <div class="info-box">
  <div class="info-title">
-  <p>l; Info Title!</p>
+  <p>Info Title!</p>
  </div>
  <div class="info-content">
-  <p>l;Lorem Ipsum is simply dummy text of 
+  <p>Lorem Ipsum is simply dummy text of 
     the printing and typesetting industry. 
     Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s,
@@ -102,9 +107,9 @@ padding: 5px;
     including versions of Lorem Ipsum.</p>
  </div>
 </div>
-<br>
-</section>
+</br>
 
+</section>  
 <!-- JQuery Section-->
 <script>
 $(document).ready(function(){
@@ -119,3 +124,7 @@ $(document).ready(function(){
 
 <?php
 include('./includes/bottomNav.php');
+?>
+
+</body>
+</html>

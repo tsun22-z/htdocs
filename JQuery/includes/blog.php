@@ -4,7 +4,8 @@
             <div class="blog-posts">
                 <!--Blog post EVENTS PAGE-->
                 <div class="blog-post">
-                <img src="img/jQuery_event.png" >
+                    
+                <img  src="img/jQuery_event.png" ><a href="Events.php"></a>
                 <p class="blog-post-date"><?php
                 date_default_timezone_set("America/New_York");    
                 echo date("Y-m-d h:i:sa");?>
