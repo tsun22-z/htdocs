@@ -2,7 +2,7 @@
 include("./includes/head.php");
 include("./includes/meta.php");
 include("./includes/topNav.php");
-include("./includes/heroSlide.php");
+//include("./includes/heroSlide.php");
 
 //include("./includes/partners.php");
 ?>

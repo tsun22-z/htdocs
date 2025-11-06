@@ -9,13 +9,64 @@ include("./includes/heroStop.php");
 
 <!-- Html and JQuery go here -->
   <h1 style="text-align:center"> Stop </h1>
-  <section id="Stop">
+  <section id="Animate">
 
   </section>
+  <style>
+
+.content-box {
+    width: 240px;
+    height: 60px;
+    background-color: blue;
+    padding: 20px;
+}
+.content-before {
+    font-size: 22px;
+    font-family: arial;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
+.content-after {
+    display: none;
+    font-size: 14px;
+    font-family: arial;
+    color: #fff;
+    text-align: left;
+    line-height: 16px;
+    opacity: 0;
+}
+</style>
  
-<script>
+    <script>
+    $(document).ready(function() {
 
-</script>
+    $(".content-box").click(function() {
+        $(".content-box").animate({
+            width: '500px',
+            height: '400px'
+        }, 3000).animate({
+            fontSize: '30px',
+        }, 3000); 
+      });
 
+      $("button").click(function() {
+        $(".content-box").stop(true, true);
+      });
+
+    });
+    </script>
+</head>
+<body>
+
+<button> Click me to Stop Animation </button>
+<div class="content-box">
+    <p class="content-before"> Click me to Start animating </p>
+</div>
+
+</body>
+</html>  
 <?php
 include('./includes/bottomNav.php');
+?>
