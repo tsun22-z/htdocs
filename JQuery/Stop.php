@@ -13,9 +13,34 @@ include("./includes/heroStop.php");
 
   </section>
  
-<script>
+    <script>
+    $(document).ready(function() {
 
-</script>
+    $(".content-box").click(function() {
+        $(".content-box").animate({
+            width: '500px',
+            height: '400px'
+        }, 3000).animate({
+            fontSize: '30px',
+        }, 3000); 
+      });
 
+      $("button").click(function() {
+        $(".content-box").stop(true, true);
+      });
+
+    });
+    </script>
+</head>
+<body>
+
+<button> Click me to Stop Animation </button>
+<div class="content-box">
+    <p class="content-before"> Click me to Start animating </p>
+</div>
+
+</body>
+</html>  
 <?php
 include('./includes/bottomNav.php');
+?>
