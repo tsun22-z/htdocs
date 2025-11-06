@@ -130,7 +130,9 @@
             </div>
              <div class="blog-post">
                 <!--Blog post STOP-->
+                <a href="Stop.php" target="_blank">
                 <img src="img/jQuery_stop.png" >
+                </a>
                 <p class="blog-post-date"><?php
                 date_default_timezone_set("America/New_York");    
                 echo date("Y-m-d h:i:sa");?>
@@ -144,16 +146,19 @@
             </div>
               <div class="blog-post">
                 <!--Blog post PHP Date and Time-->
-                <a href="https://www.w3schools.com/php/php_date.asp" target="_new"> <img src="img/php_logo.png"</a>
+                <a href="https://www.w3schools.com/php/php_date.asp" target="_new"> 
+                <img src="img/w3schools.png">
+                </a>
                 <p class="blog-post-date"><?php
                 date_default_timezone_set("America/New_York");    
                 echo date("Y-m-d h:i:sa");?>
                 </p>
                 <h3>PHP Date and Time</h3>
-                <p class="blog-post-desc">For the first time, Yokohama Advan Tyres
+                <!--<p class="blog-post-desc">For the first time, Yokohama Advan Tyres
                 are hosting their very own Trackdays, hosted by your's truly! The aim? To
                 thank their loyal customers by providing a bargain event as well as
-                introduce new Advan tyres to those who don't use them yet... <a
+                introduce new Advan tyres to those who don't use them yet...   _-->
+                <a
                 href="#">Read More</a></p>
             </div>
             

@@ -9,9 +9,35 @@ include("./includes/heroStop.php");
 
 <!-- Html and JQuery go here -->
   <h1 style="text-align:center"> Stop </h1>
-  <section id="Stop">
+  <section id="Animate">
 
   </section>
+  <style>
+
+.content-box {
+    width: 240px;
+    height: 60px;
+    background-color: blue;
+    padding: 20px;
+}
+.content-before {
+    font-size: 22px;
+    font-family: arial;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
+.content-after {
+    display: none;
+    font-size: 14px;
+    font-family: arial;
+    color: #fff;
+    text-align: left;
+    line-height: 16px;
+    opacity: 0;
+}
+</style>
  
     <script>
     $(document).ready(function() {
