@@ -11,5 +11,15 @@ $nav ='
         <li><a href="dataTypes.php">Data Types</a></li>
     </ul>
 </nav>
+
 ';
+
+$dateTime = date('Y-m-d') . "<br>" . date('H:i:s');
+//echo $dateTime;
+
+
+?> 
+<?php
+ //echo date('Y-m-d')."<br>";
+   // echo date('H:i:s');
 ?>

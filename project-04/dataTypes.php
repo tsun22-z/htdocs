@@ -10,7 +10,8 @@
 <body>
 
 <?php 
-    echo $nav;
+    echo $nav, $dateTime;
+
 ?>
 
     <h1 style="text-align:center;"> Welcome to my <?php echo($project); echo(" ".$page);?> </h1>
@@ -18,12 +19,13 @@
    Date type variables will go here!!!
 </p>
 
-<p style="text-align:left;">
+<p style="text-align:center;">
    <iframe width="560" height="315" src="https://www.youtube.com/embed/przRGJtl0HY?si=vCXP-qS8XFHklwKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 </p>
 
 <?php 
-    echo $nav;
+    echo $nav, $dateTime;
+
 ?>
 
 </body>

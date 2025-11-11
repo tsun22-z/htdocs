@@ -10,14 +10,16 @@
 <body>
 
 <?php 
-    echo $nav;
+    echo $nav, $dateTime;
+   
 
 ?>
 
 <h1 style="text-align:center"> Welcome to my <?php echo($project); echo(" ".$page);?> </h1>
 
 <?php 
-    echo $nav;
+    echo $nav, $dateTime;
+    
 ?>
 </body>
 

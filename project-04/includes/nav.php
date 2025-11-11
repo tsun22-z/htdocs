@@ -7,8 +7,8 @@
         <li><a href="dataTypes.php">Data Types</a></li>
     </ul>
 </nav>
-<?php 
-include_once("./includes/var.php");
-echo date('Y-m-d')."<br>";
-echo date('H:i:s');
+<?php
+    include_once("./includes/var.php");
+    echo date('Y-m-d')."<br>";
+    echo date('H:i:s');
 ?>
