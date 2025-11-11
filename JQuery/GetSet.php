@@ -15,3 +15,4 @@ include("./includes/heroGetSet.php");
 
 <?php
 include('./includes/bottomNav.php');
+?>

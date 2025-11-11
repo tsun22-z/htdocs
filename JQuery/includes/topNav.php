@@ -1,10 +1,12 @@
+  <section>
   <header>
         <div class="container">
 
-        <a id="logo"> <img src="img/logo.png" srcset="img/logo-header.png 1x, img/logo-header@2x.png 2x" alt="Logo"> 
+        
        
         <!--Left side navigation menu-->
        <ul class="main-nav">
+            <li><a href="index.php" id="logo"> <img src="img/jQuery_logo.png" width="100" offSet = - 20px alt="Logo"> </a></li>
             <li><a href="Events.php">EVNTS</a></li>
             <li><a href="Hide.php">HIDE</a></li>
             <li><a href="Slide.php">SLIDE</a></li>
