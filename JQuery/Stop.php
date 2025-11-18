@@ -9,16 +9,15 @@ include("./includes/heroStop.php");
 
 <!-- Html and JQuery go here -->
   <h1 style="text-align:center"> Stop </h1>
-  <section id="Animate">
-
-  </section>
+  
   <style>
 
 .content-box {
     width: 240px;
-    height: 60px;
+    height: 240px;
     background-color: blue;
     padding: 20px;
+    margin-bottom: 100px;
 }
 .content-before {
     font-size: 22px;
@@ -38,7 +37,10 @@ include("./includes/heroStop.php");
     opacity: 0;
 }
 </style>
- 
+
+    <!-- END OF CSS SECTION -->
+  <section id="Stop">
+  
     <script>
     $(document).ready(function() {
 
@@ -46,13 +48,15 @@ include("./includes/heroStop.php");
         $(".content-box").animate({
             width: '500px',
             height: '400px'
-        }, 3000).animate({
-            fontSize: '30px',
-        }, 3000); 
+        }, 3000);
+        $(".content-before").animate({
+            fontSize: '60px'
+        }, 3000);
       });
 
       $("button").click(function() {
         $(".content-box").stop(true, true);
+        $(".content-before").stop(true, true);
       });
 
     });
@@ -60,11 +64,13 @@ include("./includes/heroStop.php");
 </head>
 <body>
 
+
 <button> Click me to Stop Animation </button>
 <div class="content-box">
     <p class="content-before"> Click me to Start animating </p>
 </div>
 
+    </section>
 </body>
 </html>  
 <?php

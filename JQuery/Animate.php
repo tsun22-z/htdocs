@@ -61,6 +61,7 @@ publishing software like Aldus PageMaker
 including versions of Lorem Ipsum.</p>
   </section>
 
+  <br>
 <!-- JQuery Section-->
 
 <script>

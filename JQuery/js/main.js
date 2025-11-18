@@ -18,7 +18,7 @@ let viewLoginPwd = false;
 function changePwdView() 
 {
     let getPwdView = $("#viewPwdLogin");
-    if(viewLoginPwd === false)
+    if (viewLoginPwd === false)
         {
             getPwdView.attr("type", "text");
             viewLoginPwd = true;
