@@ -7,7 +7,7 @@
         <!--Left side navigation menu-->
        <ul class="main-nav">
             <li><a href="index.php" id="logo"> <img src="img/jQuery_logo.png" width="100" offSet = - 20px alt="Logo"> </a></li>
-            <li><a href="Events.php">EVNTS</a></li>
+            <li><a href="Events.php">EVENTS</a></li>
             <li><a href="Hide.php">HIDE</a></li>
             <li><a href="Slide.php">SLIDE</a></li>
             <li><a href="Animate.php">ANIMATE</a></li>
