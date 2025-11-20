@@ -16,7 +16,7 @@
                 Challenge 2016!
                 There was much anticipation with Jason's big power Evo competing at Round
                 3, however some suspected engi… -->
-                <a href="#">Read More</a></p>
+                <a href="#">Read More</a></p> 
 
             </div>
 

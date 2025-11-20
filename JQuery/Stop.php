@@ -17,7 +17,7 @@ include("./includes/heroStop.php");
     height: 240px;
     background-color: blue;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 .content-before {
     font-size: 22px;
