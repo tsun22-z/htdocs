@@ -1,6 +1,6 @@
 <html class="no-js" lang="">
     <head>
-        <meta http-equiv="refresh" content="15">
+        <!-- <meta http-equiv="refresh" content="15"> -->
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title></title>

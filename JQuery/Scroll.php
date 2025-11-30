@@ -34,16 +34,20 @@ include("./includes/heroScroll.php");
 <body>
   <a href="Scroll_Subpage.php#section3">
     <div>
-        <p>Go to section 3 </p> 
+        <button type="button" name="button" class="btn-primary" style="text-align: center;"> Go to Section 3 </button>
+        <!-- <p>Go to section 3 </p> --> 
     </div>  
   </a>
-
+  <br>
+  <br>
   <a href="Scroll_Subpage.php#post">
     <div>
-        <p>Go to post section </p> 
+        <button type="button" name="button" class="btn-primary" style="text-align: center;" > Go to Post Section </button>
+    <!-- <p>Go to post section </p> -->
     </div>  
   </a>
-
+  <br>
+  <br>
 </section>
 
 <!-- JQuery Section-->

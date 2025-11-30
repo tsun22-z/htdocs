@@ -22,10 +22,11 @@ include("./includes/heroScroll.php");
      margin:0;
      padding:0; 
      }
-     section:not(#Scroll) {
-      width: 100%;
-      height: 800px;
-     }
+  
+    .scroll-page section {
+    width: 100%;
+    height: 800px;
+    }
      p {
       font-family: arial;
       font-size: 20px;
@@ -47,20 +48,24 @@ include("./includes/heroScroll.php");
       }
 </style>      
 
-<body>  
+<body>
+  
+  <div class="scroll-page">
 
-<section class="bg1" id="section1">
-      <p> Section 1 </p>
-</section>
-<section class="bg2" id="section2">
-      <p> Section 2 </p>
-</section>
-<section class="bg3" id="scroll-section3">
-      <p> Section 3 </p>
-</section>
-<section class="bg4" id="scroll-post">
-      <p> Post </p>
-</section>
+  <section class="bg1" id="section1">
+    <p> Section 1 </p>
+  </section>
+  <section class="bg2" id="section2">
+    <p> Section 2 </p>
+  </section>
+  <section class="bg3" id="scroll-section3">
+    <p> Section 3 </p>
+  </section>
+  <section class="bg4" id="scroll-post">
+    <p> Post </p>
+  </section>
+
+  </div>
 
 </body>
 </html>
