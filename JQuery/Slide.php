@@ -6,7 +6,7 @@ include("./includes/heroSlide.php");
 
 //include("./includes/partners.php");
 ?>
-<body>
+
  <!-- Html and JQuery go here --> 
   <h1 style="text-align:center"> Slide </h1>
   <section id="Slide">
@@ -63,7 +63,7 @@ background-color: #F1C40F;
 padding: 5px;
 }
 </style>
-
+<body>
   <!-- END OF CSS SECTION-->
 
  <p id="menu-toggle"> <img src="img/Hamburger_icon.png" width=50px></p>
